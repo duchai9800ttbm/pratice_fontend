@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+figure {
+  display: block;
+}
+
+.header {
+  background-color: #fed700;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-search {
+  background-color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.search-input {
+  margin-left: 10px;
+  margin-bottom: 0 !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input-search {
+  padding: 3px 0 3px 8px;
+  border-radius: 4px 0 0 4px;
+  border: none;
+}
+
+.search-button {
+  height: 30px;
+  border: none;
+  background-color: #ffffff;
+  padding-right: 8px;
+  border-radius: 0 4px 4px 0;
+}
+
+.search-icon {
+  background-image: url("https://cdn.thegioididong.com/v2015/Content/desktop/images/V4/icondesktop@1x.png?v=001");
+  background-position: -160px 0;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+.logo-icontgdd {
+  background-position: 0 0;
+  width: 156px;
+  height: 30px;
+  display: block;
+  background-image: url("https://cdn.thegioididong.com/v2015/Content/desktop/images/V4/icondesktop@1x.png?v=001");
+}
+
+.icontgdd-mobile {
+  background-position: -190px 0;
+  width: 16px;
+  height: 30px;
+  background-image: url("https://cdn.thegioididong.com/v2015/Content/desktop/images/V4/icondesktop@1x.png?v=001");
+  display: block;
+}
+
+.icontgdd-tablet {
+  background-position: -209px 0;
+  width: 33px;
+  height: 30px;
+  background-image: url("https://cdn.thegioididong.com/v2015/Content/desktop/images/V4/icondesktop@1x.png?v=001");
+  display: block;
+}
+
+.icontgdd-laptop {
+  background-position: -245px 0;
+  width: 39px;
+  height: 30px;
+  background-image: url("https://cdn.thegioididong.com/v2015/Content/desktop/images/V4/icondesktop@1x.png?v=001");
+  display: block;
+}
+
+.icontgdd-phukien {
+  background-position: -288px 0;
+  width: 22px;
+  height: 30px;
+  background-image: url("https://cdn.thegioididong.com/v2015/Content/desktop/images/V4/icondesktop@1x.png?v=001");
+  display: block;
+}
+
+.icontgdd-watch {
+  background-position: -362px -50px;
+  width: 16px;
+  height: 30px;
+  background-image: url("https://cdn.thegioididong.com/v2015/Content/desktop/images/V4/icondesktop@1x.png?v=001");
+  display: block;
+}
+
+.icontgdd-maydoitra {
+  background-position: -315px 0;
+  width: 34px;
+  height: 30px;
+  background-image: url("https://cdn.thegioididong.com/v2015/Content/desktop/images/V4/icondesktop@1x.png?v=001");
+  display: block;
+}
+
+.icontgdd-news {
+  background-position: -375px 0;
+  width: 29px;
+  height: 30px;
+  background-image: url("https://cdn.thegioididong.com/v2015/Content/desktop/images/V4/icondesktop@1x.png?v=001");
+  display: block;
+}
+
+.icontgdd-ask {
+  background-position: -410px 0;
+  width: 25px;
+  height: 30px;
+  background-image: url("https://cdn.thegioididong.com/v2015/Content/desktop/images/V4/icondesktop@1x.png?v=001");
+  display: block;
+}
+
+.nav-item-logo {
+  margin: auto;
+}
+
+.nav ul {
+  width: 600px;
+  margin-bottom: 0;
+  margin-top: 7px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.item-news img, .carousel img, .carousel, .carousel-inner, .carousel-item {
+  height: 100%;
+  width: 100%;
+}
+
+.home > .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 65% 35%;
+      grid-template-columns: 65% 35%;
+}
+
+.home {
+  margin-top: 10px;
+}
+
+.home-news {
+  padding-left: 15px;
+}
+
+.home-news .head {
+  border-bottom: 1px solid #efefef;
+}
+
+.news-hot {
+  background-color: #ffffff;
+}
+
+.news-hot > div a {
+  padding: 10px 20px 10px 10px;
+  background: #fdd504;
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000;
+  display: inline-block;
+}
+
+.item-news {
+  padding: 7px;
+}
+
+.item-news a {
+  color: #000000;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 35% auto;
+      grid-template-columns: 35% auto;
+}
+
+.item-news span {
+  font-size: 12px;
+  color: #999999;
+}
+
+.item-news h3 {
+  font-size: 14px;
+  color: #333333;
+}
+
+.item-news img {
+  display: block;
+}
+
+.item-content {
+  padding: 0 10px;
+}
+
+.tow-banner a {
+  width: 100%;
+  display: block;
+}
+
+.tow-banner a img {
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.tow-banner a:last-child img {
+  padding-bottom: 0;
+}
+
+.promote-banner {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / span 2;
+  margin-top: 15px;
+}
+
+.promote-banner img {
+  width: 100%;
+}
+
+.nav-item-title {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=main.css.map */
