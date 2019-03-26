@@ -523,6 +523,21 @@ h3, h2 {
   display: block;
 }
 
+.hover {
+  position: relative;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.item-product:hover .hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.item-product:hover .product-title {
+  color: #1191f8;
+}
+
 .inner {
   background-color: #ffffff;
 }

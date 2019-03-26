@@ -153,3 +153,13 @@
   margin-right: auto;
   display: block;
 }
+
+.hover {
+  position: relative;
+  transition: all 0.3s;
+}
+
+.item-product:hover {
+  .hover { transform: translateY(-10px); }
+  .product-title { color: #1191f8; }  
+}
