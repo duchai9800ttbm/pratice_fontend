@@ -2,7 +2,8 @@
     background-color: #fed700;
 
     .container {
-    display: flex;
+        display: grid;
+        grid-template-columns: auto 1fr;
     }
 }
 
@@ -75,9 +76,14 @@ $navList: (
     margin: auto;
 }
 
-.nav ul {
-    width: 600px;
-    margin-bottom: 0;
-    margin-top: 7px;
-    justify-content: space-around;
+.nav {
+    &>ul {
+        justify-content: space-around;
+        margin-bottom: 0;
+    }
+}
+
+.nav-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
