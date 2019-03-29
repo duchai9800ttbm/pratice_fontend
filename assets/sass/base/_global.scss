@@ -32,3 +32,11 @@ h3, h2 {
     width: 1200px;
     box-sizing: content-box;
 }
+
+input:focus, button:focus {
+    outline: none;
+}
+
+p {
+    margin-bottom: 0;    
+}

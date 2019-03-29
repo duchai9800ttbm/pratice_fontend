@@ -86,4 +86,10 @@ $navList: (
 .nav-item {
     padding-top: 5px;
     padding-bottom: 5px;
+    width: 12.5%;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #f5f5f5;
+    }
 }
