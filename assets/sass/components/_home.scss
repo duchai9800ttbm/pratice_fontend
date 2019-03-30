@@ -22,6 +22,7 @@
 
 .news-hot {
     &>div {
+        display: flex;
         a {
             padding: 10px 20px 10px 10px;
             background: #fdd504;
@@ -107,4 +108,51 @@
     top: 0;
     left: 0;
     z-index: 1;
+}
+
+.animation {
+    background: #ffffff !important;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.animation::after {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(238,46,36,.2);
+    animation-timing-function: linear;
+    border: 1px solid #f33;
+    border-radius: 50%;
+    animation-name: ping;
+    position: absolute;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    content: ''; 
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #f33;
+    border-radius: 50%;
+}
+
+@keyframes ping {
+    0% {
+        width: 10px;
+        height: 10px;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        width: 35px;
+        height: 35px;
+    }
 }
